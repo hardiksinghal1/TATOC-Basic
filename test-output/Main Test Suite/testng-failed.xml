@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Main Test Suite]">
+  <test name="First Test(failed)">
+    <classes>
+      <class name="test.AppTest">
+        <methods>
+          <include name="secondPage"/>
+          <include name="closeHomePage"/>
+          <include name="openHomePage"/>
+          <include name="firstPage"/>
+          <include name="fourthPage"/>
+          <include name="fifthPage"/>
+          <include name="firstPageRedBox"/>
+          <include name="thirdPage"/>
+        </methods>
+      </class> <!-- test.AppTest -->
+    </classes>
+  </test> <!-- First Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
